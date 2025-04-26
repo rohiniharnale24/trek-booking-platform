@@ -1,0 +1,24 @@
+:host {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.form-container {
+   margin: 0 auto;
+   position: relative;
+   transform: translate(0%, 15%);
+   // background-color: #000;
+   padding: 60px 80px 40px 80px;
+   border-radius: 4px;
+   border: 1px solid gray;
+
+   .start-free-wrp {
+      margin: -35px 0px 5px 0px;
+      font-size: 15px;
+   }
+   .create-account-wrp{
+      font-size: 15px;
+      margin-bottom: 15px;
+   }
+}
