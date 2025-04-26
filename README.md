@@ -1,27 +1,50 @@
-# AngularPractice
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+# 🏕️ TrekArmy - Trek Booking Platform
 
-## Development server
+**TrekArmy** is a role-based trek booking application built with Angular 14, designed for trekking enthusiasts and agencies. Users can explore and book treks, agents can create and manage their trek listings, and the owner (admin) oversees the entire ecosystem.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 👤 User
+- Browse, filter, and explore upcoming treks
+- Book treks via a dynamic booking form
+- View booking status & history
+- Receive trek notifications and reminders
 
-## Build
+### 🧭 Agent
+- Register a trek agency profile
+- Add, edit, and manage treks
+- View number of bookings and performance stats
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 👑 Owner (Admin)
+- Approve or reject agent signups
+- Manage users and treks
+- View global analytics and reports
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🧱 Tech Stack
 
-## Running end-to-end tests
+- **Frontend**: Angular 14, RxJS, SCSS
+- **UI Library**: Angular Material
+- **State Management**: Services & Observables
+- **Backend**: Firebase / Node.js + Express *(optional)*
+- **Auth**: Firebase Auth / JWT
+- **Deployment**: Firebase Hosting / Netlify / Vercel
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🗂️ Folder Structure (Simplified)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+src/app/
+├── core/         # Services, guards, auth logic
+├── shared/       # Reusable UI components
+├── features/
+│   ├── user/
+│   ├── agent/
+│   ├── owner/
+│   └── trek/
+```
